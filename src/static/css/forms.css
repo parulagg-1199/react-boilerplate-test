@@ -1,0 +1,102 @@
+.form-group {
+	display: block;
+	width: 100%;
+	margin: 0 0 20px;
+	position: relative;
+}
+.form-group label {
+	display: inline-block;
+	margin: 0 2px 6px;
+	font-weight: lighter;
+	font-size: 1rem;
+}
+.req {
+	color: #c50e29;
+}
+.api-error-msg {
+	color: #dc3940;
+	opacity: 0;
+	transition: 0.5s ease-in-out;
+	visibility: hidden;
+}
+.api-error-msg.error{
+	opacity: 1;
+	visibility: visible;
+}
+.form-group .form-ctrl:valid ~ .help-block {
+	display: none;
+}
+.form-group.btn-group i.fa-spin {
+	font-size: 2rem;
+	margin-left: 1rem;
+	color: #0052CE;
+}
+.radio-group .radio-ctrl {
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.form-group .radio-group label {
+	display: inline-block;
+	vertical-align: text-top;
+	margin-left: 1rem;
+	margin-bottom: 0;
+	font-size: 14pt;
+	cursor: pointer;
+}
+.form-group .radio-group label i {
+	margin-left: 1rem;
+	width: 20px;
+	text-align: center;
+	color: #0052CE;
+}
+/* dialog box btn*/
+.mdc-dialog .mdc-dialog__surface{
+	width: 500px;
+	max-width: 100%;
+}
+.mdc-dialog__footer .mdc-button.mdc-dialog__footer__button {
+	background-color: #2E7EED;
+	color: #fff;
+}
+.mdc-dialog__footer .mdc-button.mdc-dialog__footer__button::after, .mdc-dialog__footer .mdc-button.mdc-dialog__footer__button::before{
+content: unset;
+}
+.mdc-dialog__footer .mdc-button.mdc-dialog__footer__button:hover , .mdc-dialog__footer .mdc-button.mdc-dialog__footer__button:focus{
+	background-color: #0052CE;
+	color: #fff;
+}
+.mdc-dialog__footer  .mdc-button.mdc-dialog__footer__button.mdc-dialog__footer__button--cancel {
+	background: transparent;
+	color: #2E7EED;
+	border: 1px solid #2E7EED;
+}
+.mdc-dialog__footer .mdc-button.mdc-dialog__footer__button.mdc-dialog__footer__button--cancel:hover, .mdc-dialog__footer .mdc-button.mdc-dialog__footer__button.mdc-dialog__footer__button--cancel:focus {
+	background: transparent;
+	color: #0052CE;
+	border-color: #0052CE;
+}
+
+.form-group .form-ctrl {
+    width: 100%;
+    min-height: 35px;
+    border: 1px solid #cad5e4;
+    border-radius: 2px;
+	background-color: white;
+    font-weight: lighter;
+}
+
+.form-group .form-ctrl:focus, .form-group .form-ctrl:active {
+    background: #F5F9FF;
+    border-color: #0b4dad;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.with-error {
+    display: none;
+	color: #d50000;
+	font-size: 12px;
+}

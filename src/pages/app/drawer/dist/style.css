@@ -1,0 +1,100 @@
+.drawer-wrapper {
+	transition: width 0.4s, left 0.4s;
+	position: fixed;
+	width: 240px;
+	top: 70px;
+	bottom: 0;
+	z-index: 1;
+	left: 0;
+	background-color: #013671;
+	box-shadow: 7px 0px 10px -9px #656565;
+}
+.navgroup-title {
+	display: block;
+	position: relative;
+	padding: 6px 12px;
+	color: #e5e5e5;
+	text-transform: uppercase;
+	font-size: 12px;
+	transition: 0.4s ease all;
+}
+.drawer-item .drawer-link {
+	position: relative;
+	display: block;
+	border-left: 2px solid transparent;
+	padding: 15px;
+	font-family: "Roboto",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+}
+.navmenu-item {
+	color: #e5e5e5;
+	display: inline-block;
+	transition: 0.4s ease all;
+}
+.drawer-link img{
+	width: 20px;
+	padding-right: 10px;
+}
+.arrow-icon{
+	color: #e5e5e5;
+	font-size: 0;
+	float: right;
+	transform: rotate(0deg);
+	transition: .2s ease all;
+}
+.nav-item-divider {
+	margin: 10px 0;
+	border-color: #585f69;
+}
+/*sub menu*/
+.drawer-submenu {
+	background-color: #002a59;
+	display: none;
+	height: 0;
+	overflow: hidden;
+  -webkit-transition: height .3s ease-in;
+  -moz-transition: height .3s ease-in;
+  -ms-transition: height .3s ease-in;
+  -o-transition: height .3s ease-in;
+  transition: height .3s ease-in;
+}
+.drawer-item .drawer-link.active, .drawer-item .drawer-link:hover{
+	background-color: #004b9f;
+	color: #fff;
+}
+.drawer-item.open .drawer-submenu{
+	display: block;
+	height: 200px;
+	-webkit-transition: height .3s ease-out;
+  -moz-transition: height .3s ease-out;
+  -ms-transition: height .3s ease-out;
+  -o-transition: height .3s ease-out;
+  transition: height .3s ease-out;
+}
+.drawer-item.open .nav-menu-icon.arrow-icon{
+	transform: rotate(180deg);
+	transition: .2s ease all;
+}
+/*drawer clsoed*/
+.drawer-wrapper.closed {
+	width: 70px;
+}
+.drawer-wrapper.closed .drawer-link{
+	text-align: center;
+}
+.drawer-wrapper.closed:hover .drawer-link{
+	text-align: left;
+}
+.drawer-wrapper.closed .navgroup-title {
+	display: none;
+}
+.drawer-wrapper.closed .navmenu-item, .drawer-wrapper.closed .nav-menu-icon.arrow-icon{
+	display: none;
+}
+.drawer-wrapper.closed:hover {
+	width: 240px;
+}
+.drawer-wrapper.closed:hover .navmenu-item, .drawer-wrapper.closed:hover .nav-menu-icon.arrow-icon {
+    display: initial;
+}

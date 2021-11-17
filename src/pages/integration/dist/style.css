@@ -1,0 +1,119 @@
+
+  .control-error {
+    display: block;
+    border: 1px solid red;
+  }
+  .btn {
+    border-radius: 2px;
+    width: auto;
+    min-width: 100px;
+    border: none;
+    display: inline-block;
+    min-height: 42px;
+    line-height: 42px;
+    font-size: 13pt;
+    color: #fff;
+    text-align: center;
+    background: #013671;
+    outline: none;
+    cursor: pointer;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: 0.4s ease all;
+    -o-transition: 0.4s ease all;
+    transition: 0.4s ease all;
+    padding: 0 2rem;
+}
+.form-group p.error{
+  color: #d50000;
+  font-size: 12px;
+  display: none;
+}
+.form-group.has-error p.error{
+  display: block;
+  padding-bottom: 10px;
+}
+
+.password-outer .material-icons, .email-outer .material-icons {
+	position: absolute;
+	right: 8px;
+	color: var(--primary-color-code);
+	top: 0;
+	line-height: 48px;
+	cursor: pointer;
+}
+.password-outer {
+	position: relative;
+}
+.password-outer .material-icons {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	line-height: 48px;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.form-group .react-tel-input {
+	width: 100%;
+	min-height: 35px;
+	margin: 8px 0;
+}
+.form-group .react-tel-input input[type="tel"], .form-group .react-tel-input input[type="text"] {
+  width: 100%;
+  min-height: 35px;
+  border: 1px solid #cad5e4;
+  border-radius: 2px;
+  background-color: white;
+  font-weight: lighter;
+
+}
+
+.form-group .react-tel-input .selected-flag {
+  z-index: 1;
+  position: relative;
+  width: 40px;
+  min-height: 35px;
+  padding: 0 0 0 8px;
+  border-radius: 3px 0 0 3px;
+  border-left: 0;
+  border-right: 1px solid #cacaca;
+  box-shadow: none;
+  border-top: 0;
+  background: #d0e0f2;
+  outline: none;
+  border-bottom: none;
+}
+
+.form-group .react-datepicker-popper{
+  z-index: 2;
+}
+
+.form-group .react-datepicker-wrapper{
+  width: 100%;
+min-height: 35px;
+border: 1px solid #cad5e4;
+border-radius: 2px;
+background-color: white;
+font-weight: lighter;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+
+.delete{
+  color: red
+}

@@ -1,0 +1,11 @@
+/*footer*/
+.footer {
+	position: fixed;
+	bottom: 0;
+	padding: 16px;
+}
+.footer p {
+	margin: 0;
+	font-size:11pt ;
+	font-weight: lighter;
+}

@@ -1,0 +1,8 @@
+<svg  class='svg-color-icon' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <title>services</title>
+  <path style="fill:none;stroke:#ffffff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.5px;" d="M32.82,40.52v3.7H9.68a.34.34,0,0,1-.33-.34V24.24A.34.34,0,0,0,9,23.91H5.3a.34.34,0,0,1-.23-.59L13.15,16a.33.33,0,0,0,.11-.25V7a.34.34,0,0,1,.33-.34h5.17A.34.34,0,0,1,19.1,7v3.44a.34.34,0,0,0,.54.27l5.24-3.89a.33.33,0,0,1,.41,0l7.53,5v4.51"/>
+  <rect fill="#ffffff" x="21.14" y="19.03" width="23.37" height="4.42" rx="1.09"/>
+  <rect fill="#0562e8" x="21.02" y="26.52" width="23.37" height="4.42" rx="1.09"/>
+  <rect fill="#0562e8" x="21.02" y="34.01" width="23.37" height="4.42" rx="1.09"/>
+
+</svg>
