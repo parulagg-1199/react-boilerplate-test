@@ -11,10 +11,4 @@ spec:
   type: service
   owner: Parul
   lifecycle: production
-auth:
-  environment: development
-  providers:
-    github:
-      development:
-        clientId: a122041b0547ee2dc208
-        clientSecret: cc3ce2d9eba933ce353539e05857391755bc1249
+
